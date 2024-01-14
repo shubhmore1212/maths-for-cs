@@ -38,9 +38,9 @@ Using integers and bitwise operations to represent powers is that it provides a 
 
 Bit masking is a technique in computer programming that involves using bitwise operations to manipulate specific bits within an integer or a set of bits in a binary representation. This technique is commonly employed to extract, set, clear, or toggle specific bits within a binary number.
 
-`<< => left shift operator`
-`for eg: 1<<0 => 0001`
-`        1<<2 => 0100`
+```<< => left shift operator
+for eg: 1<<0 => 0001
+        1<<2 => 0100```
 
 Setting a Bit:
 To set a particular bit to 1, you use the bitwise OR (|) operation with a value that has only that bit set to 1 and all other bits set to 0.
